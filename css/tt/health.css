@@ -1,0 +1,77 @@
+body {
+  background-color: #700012;
+}
+
+/* 選單 */
+.menu ul li:nth-child(1) a {
+  filter: contrast(131%) hue-rotate(124deg);
+}
+
+
+.menu ul li:not(:nth-child(1)):not(:last-child):hover {
+  filter: contrast(131%) hue-rotate(124deg);
+  padding-bottom: 8px;
+}
+
+
+/* 產品區 */
+.healthtitle .kv-pc {
+  width: 50%;
+}
+
+.items {
+  width: 1100px;
+}
+
+.healthtitle {
+  margin-top: 100px;
+}
+
+.container .row .col-12 .carditem .row {
+  border-radius: 27px;
+}
+
+.container .row .carditem h4 {
+  font-family: 'Noto Serif TC', serif;
+}
+
+.container .row .carditem .quantity {
+  font-size: 12px;
+  background-color: #D75513;
+  border-radius: 4px;
+
+}
+
+.container .money {
+  color: #96001D;
+}
+
+
+
+.container .more {
+  background-image: linear-gradient(to top, #700012, #96001D);
+  border-radius: 7px;
+
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+  /* 選單 */
+  .menu ul li:not(:nth-child(1)):not(:last-child):hover {
+    padding-bottom: 0px;
+  }
+
+
+  /* 產品區 */
+  .healthtitle .kv-pc {
+    width: 100%;
+  }
+
+  .items {
+    width: 100%;
+  }
+
+}

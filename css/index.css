@@ -16,6 +16,10 @@ body {
 }
 
 /* 表單 */
+.title .row .login {
+  border-right: 3px white solid;
+}
+
 ::placeholder {
   color: #ffffff;
 }
@@ -23,9 +27,7 @@ body {
 .serial input {
   line-height: 2;
 
-
 }
-
 
 .serial .row select {
   height: 40px;
@@ -33,14 +35,13 @@ body {
 
 
 
-
-
-
-
-
-
 .serial .btn {
   background-image: linear-gradient(to top, #031D53, #06307C);
+}
+
+.serial .btn:hover {
+  background-image: linear-gradient(to top, #700012, #96001D);
+
 }
 
 @media screen and (min-width:1280px) {
@@ -64,5 +65,13 @@ body {
   ::placeholder {
     color: #969696;
   }
+
+}
+
+@media screen and (max-width:375px) {
+  .title .row .login {
+    border-right: none;
+  }
+
 
 }

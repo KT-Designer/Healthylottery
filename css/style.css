@@ -1,3 +1,22 @@
+/* 捲軸 */
+::-webkit-scrollbar {
+  width: 16px
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #830016;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #06307C;
+}
+
+
+
+
+
+
 /* 置頂鍵 */
 #scrolltop {
   position: fixed;

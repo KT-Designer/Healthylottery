@@ -20,13 +20,25 @@ body {
 
 }
 
+/* 獎項 */
+
+.awards .row .col-6 img {
+  margin-top: 0;
+  transition: margin-top 0.3s ease;
+}
+
+.awards .row .col-6 img:hover {
+  margin-top: -18px;
+}
+
+
 
 
 @media screen and (min-width:1280px) {
 
   /* 獎項 */
   .awards {
-    max-width: 1060px;
+    max-width: 1064px;
   }
 
 }
@@ -43,6 +55,12 @@ body {
   .menu ul li:not(:nth-child(3)):not(:last-child):hover {
     padding-bottom: 0px;
   }
+
+  /* 獎項 */
+  .awards .row .col-6 img:hover {
+    margin-top: 0px;
+  }
+
 
 
 }

@@ -1,0 +1,71 @@
+/* 捲軸 */
+::-webkit-scrollbar {
+  width: 16px
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #830016;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #06307C;
+}
+
+
+
+
+/* 置頂鍵 */
+#scrolltop {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 30px;
+  background-color: #06307C;
+  box-shadow: 2px 5px 0px 0px #00000042;
+  background-image: url(../images/top.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50px;
+  display: block;
+  z-index: 9999;
+}
+
+button .fas {
+  width: 56px;
+  height: 56px;
+  background-color: #06307C;
+}
+
+
+/* 選單 */
+.header {
+  background-color: #830016;
+
+}
+
+.header .container .menu li {
+  list-style: none;
+}
+
+/* 頁尾 */
+.footer {
+  background-image: linear-gradient(to top, #E2B22C, #E4D279);
+}
+
+
+.footer .copyright p {
+  font-size: 10px;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+  /* 選單 */
+  .header .container .logo {
+    width: 60%;
+    height: auto;
+  }
+
+}

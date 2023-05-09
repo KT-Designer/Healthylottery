@@ -1,0 +1,77 @@
+body {
+  background-color: #830016;
+}
+
+
+
+/* 選單 */
+.menu ul li:nth-child(2) a {
+  filter: contrast(131%) hue-rotate(124deg);
+}
+
+
+.menu ul li:not(:nth-child(2)):not(:last-child):hover {
+  filter: contrast(131%) hue-rotate(124deg);
+  padding-bottom: 8px;
+}
+
+/* 表單 */
+.title .row .login {
+  border-right: 3px white solid;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+.serial input {
+  line-height: 2;
+
+}
+
+.serial .row select {
+  height: 40px;
+}
+
+
+
+.serial .btn {
+  background-image: linear-gradient(to top, #031D53, #06307C);
+}
+
+.serial .btn:hover {
+  background-image: linear-gradient(to top, #700012, #96001D);
+
+}
+
+@media screen and (min-width:1280px) {
+
+  /* 表單 */
+  .serial {
+    max-width: 626px;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+  /* 選單 */
+  .menu ul li:not(:nth-child(2)):not(:last-child):hover {
+    padding-bottom: 0px;
+  }
+
+
+  /* 表單 */
+  ::placeholder {
+    color: #969696;
+  }
+
+}
+
+@media screen and (max-width:375px) {
+  .title .row .login {
+    border-right: none;
+  }
+
+
+}

@@ -1,0 +1,66 @@
+body {
+  background-color: #700012;
+}
+
+/* 選單 */
+.menu ul li:nth-child(3) a {
+  filter: contrast(131%) hue-rotate(124deg);
+}
+
+
+.menu ul li:not(:nth-child(3)):not(:last-child):hover {
+  filter: contrast(131%) hue-rotate(124deg);
+  padding-bottom: 8px;
+}
+
+
+/* 活動辦法 */
+.container .row h4 {
+  background-image: linear-gradient(to top, #031D53, #06307C);
+
+}
+
+/* 獎項 */
+
+.awards .row .col-6 img {
+  margin-top: 0;
+  transition: margin-top 0.3s ease;
+}
+
+.awards .row .col-6 img:hover {
+  margin-top: -18px;
+}
+
+
+
+
+@media screen and (min-width:1280px) {
+
+  /* 獎項 */
+  .awards {
+    max-width: 1064px;
+  }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+  /* 選單 */
+  .menu ul li:not(:nth-child(3)):not(:last-child):hover {
+    padding-bottom: 0px;
+  }
+
+  /* 獎項 */
+  .awards .row .col-6 img:hover {
+    margin-top: 0px;
+  }
+
+
+
+}

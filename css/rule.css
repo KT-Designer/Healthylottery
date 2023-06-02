@@ -24,11 +24,12 @@ body {
 
 .awards .row .col-6 img {
   margin-top: 0;
-  transition: margin-top 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .awards .row .col-6 img:hover {
-  margin-top: -18px;
+  transform: translateY(-18px);
+
 }
 
 
@@ -58,7 +59,7 @@ body {
 
   /* 獎項 */
   .awards .row .col-6 img:hover {
-    margin-top: 0px;
+    transform: translateY(0px);
   }
 
 

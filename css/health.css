@@ -34,6 +34,15 @@ body {
   border-radius: 27px;
 }
 
+.container .row .round_card {
+  transition: transform 0.3s ease;
+}
+
+.container .row .round_card:hover {
+  transform: translateY(-18px);
+
+}
+
 .container .row .carditem h4 {
   font-family: 'Noto Serif TC', serif;
 }
@@ -75,6 +84,11 @@ body {
 
   .items {
     width: 100%;
+  }
+
+  .container .row .round_card:hover {
+    transform: translateY(0px);
+
   }
 
 }
